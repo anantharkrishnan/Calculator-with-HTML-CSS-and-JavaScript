@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+section{
+   
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(27, 25, 25);
+   box-shadow: 5px 5px 4px 4px rgb(79, 79, 79);
+}
+
+#screen{
+    width: 370px;
+    height:120px;
+    margin-bottom: 20px;
+    background-color: rgba(108, 42, 42, 0.864);
+    border:none;
+    outline:none;
+    border-radius: 15px;
+    font-size: 70px;
+    color: aliceblue;
+    text-align: right;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    margin: 4.5px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(66, 63, 63);
+    color: azure;
+      
+    outline: none;
+ 
+
+}
+.button-operator{
+    width: 80px;
+    height: 80px;
+    margin: 4.5px;
+    font-size: 20px;
+   border-radius:15px ;
+    border: none;
+    background-color: rgb(100, 80, 44);
+    color: azure;
+    
+ 
+}
+.button-clear{
+    width: 80px;
+    height: 80px;
+    margin: 4.5px;
+    font-size: 20px;
+   border-radius:15px ;
+    border: none;
+    background-color: rgb(117, 74, 49);
+    color: azure;
+    
+    
+}
+.button-result{
+     width: 80px;
+    height: 80px;
+    margin: 4.5px;
+    font-size: 20px;
+   border-radius:15px ;
+    border: none;
+    background-color: rgb(141, 65, 65);
+    color: azure;
+
+}
+.button:hover{
+    background-color: rgb(112, 109, 109);
+}
+.button:active{
+    background-color: rgb(146, 143, 143);
+}
+
+
+.button-operator:hover{
+    background-color: rgb(122, 106, 77);
+}
+.button-operator:active{
+    background-color: rgb(153, 130, 88);
+}
+
+
+   
+.button-clear:hover{
+    background-color: rgb(148, 108, 84);
+}
+.button-clear:active{
+    background-color: rgb(161, 128, 98);
+}
+
+
+.button-result:hover{
+    background-color: rgb(160, 67, 67);
+}
+.button-result:active{
+    background-color: rgb(122, 47, 47);
+}
+
+
+
+

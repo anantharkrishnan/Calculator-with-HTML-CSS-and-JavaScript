@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- section start -->
+      <section class="section">
+        <input type="text" id="screen">
+        <form action="">
+            
+            
+            <input type="button" class="button-clear" value="AC" onclick="clearScreen()" >   
+            <input type="button" class="button-operator"  value="(x³)" onclick="findSquare2()">
+            <input type="button" class="button-operator"  onclick="findSquare()" value="(x²)">
+            <input type="button" class="button-operator" value="/" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="button" value="7" onclick="btnClick(value)">
+            <input type="button" class="button" value="8" onclick="btnClick(value)">
+            <input type="button" class="button" value="9" onclick="btnClick(value)">
+            <input type="button" class="button-operator" value="*" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="button" value="4" onclick="btnClick(value)">
+            <input type="button" class="button" value="5" onclick="btnClick(value)">
+            <input type="button" class="button" value="6" onclick="btnClick(value)">
+            <input type="button" class="button-operator" value="-" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="button" value="1" onclick="btnClick(value)">
+            <input type="button" class="button" value="2" onclick="btnClick(value)">
+            <input type="button" class="button" value="3" onclick="btnClick(value)">
+            <input type="button" class="button-operator" value="+" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="button" value="0" onclick="btnClick(value)">
+            <input type="button" class="button" value="." onclick="btnClick(value)">
+            <input type="button" class="button" id="back" onclick="backSpace()"  value="⌫">
+            <input type="button" class="button-result" value="=" onclick="findResult()">
+
+        </form>
+
+  </section>
+  <!-- section end -->
+   <script src="/script.js"></script> 
+</body>
+</html>
